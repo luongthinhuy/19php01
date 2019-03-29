@@ -1,0 +1,230 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+@font-face{
+	font-family: myFont;
+	src: url(AristonNormal.ttf);
+}
+body{
+	background-image: url(header.png);
+	background-repeat: no-repeat;
+}
+ul li{
+	list-style: none;
+	
+}
+a{
+	color: #fff;
+}
+#wrapper-content{
+	width: 80%;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+	margin-right: 50px;
+}
+p{
+	font-family: myFont;
+	padding-left: 165px;
+	font-weight: bold;
+	color: green;
+}
+.clear{
+	clear: both;
+}
+.mxh{
+	float: left;
+}
+.mxh img{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 30px;
+	height: 30px;
+	border-radius: 2px;
+}
+.ngonngu{
+	float: right;
+	margin-top: 20px;
+}
+.content{
+	width: 100%;
+	background-color: #fff;
+	border: 2px solid grey;
+}
+.menu{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+}
+#menu ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	background: lightgreen;
+}
+#menu ul li{
+	display: inline-table;
+	position: relative;
+}
+#menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	padding: 5px 10px;
+	color: black;
+	font-weight: bold;
+}
+#menu a:hover{
+	background-color: violet;
+}
+.submenu{
+	display: none;
+	position: absolute;
+	padding: 0;
+	z-index:1;
+}
+#menu li:hover .submenu{
+	display: block;
+}
+input#search-text{
+	width: 200px;
+	height: 30px;
+	padding-left: 10px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	color: #484848;
+}
+input#search-top-submit{
+	background-position: right;
+	width: 30px;
+	height: 30px;
+	margin-left: -40px;
+	margin-top: 10px;
+}
+.timkiem{
+	background-color: lightgray;
+	width: 100%;
+	height: 40px;
+}
+.timkiem span{
+	line-height: 35px;
+	display: block;
+	float: left;
+}
+.timkiem div{
+	float: right;
+	margin-top: 3px;
+	margin-right: 5px;
+}
+#slide{
+	height: 300px;
+	width: 98%;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+footer{
+	width: 100%;
+	background:#0855a1;
+}
+#footer-content{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	padding: 15px 0;
+	font-size: 18px;
+}
+.footer-foot{
+	width: 100%;
+	height: 23px;
+	background: #064481;
+	text-align: center;
+	line-height: 23px;
+}
+footer a{
+	text-decoration: none;
+	color: red;
+}
+
+.news{
+	width: 49%;
+	float: left;
+	border: 1px solid #428bca;
+	border-radius: 3px;
+	margin: 3px;
+}
+.tittle{
+	width: 98.5%;
+	height: 50px;
+	line-height: 50px;
+	background-color: lightpink;
+	border-radius: 3px 0;
+	color: blue;
+	padding-left: 10px;
+}
+.info img{
+	width: 150px;
+	height: 100px;
+	float: left;
+}
+.info p{
+	color: orange;
+	font-size: 18px;
+	font-weight: bold;
+}
+.ofthernews ul li a{
+	color: green;
+	text-decoration: none;
+}
+.ofthernews ul li a:hover{
+	color: red;
+}
+.ofthernews ul li{
+	color: #064481;
+	list-style-type: circle; 
+	padding-top: 5px;
+	padding-left: 5px;
+	margin-left: 20px;
+}
+/**/
+@media screen and (max-width: 1280px){
+	#wrapper{
+		width: 100%;
+	}
+	#wrapper-content{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 768px){
+	#wrapper{
+		width: 100%;
+	}
+	#wrapper-content{
+		width: 100%;
+	}
+	.content-body{
+		width: 100%;
+	}
+	footer{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 480px){
+	#wrapper{
+		width: 100%;
+	}
+	#wrapper-content{
+		width: 100%;
+	}
+	.content-body{
+		width: 100%;
+	}
+	footer{
+		width: 100%;
+	}
+}
+
+
+

@@ -1,0 +1,97 @@
+body{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 10px;
+	border: 2px solid lightgrey;
+}
+#header{
+	width: 100%;
+	height: auto;
+}
+img{
+	width: 7%;
+	height: 60px;
+	float: left;
+	padding-top: 20px;
+	padding-left: 2%;
+}
+h2{
+	color: orange;
+	font-weight: bold;
+	line-height: 20px;
+	/*box-shadow: 3px 3px;*/
+	text-shadow: 2px 1px grey;
+}
+h4{
+	color: green;
+	font-weight: bold;
+	line-height: 15px;
+}
+.content{
+	padding-left: 3%;
+	width: 70%;
+	float: left;
+}
+#text{
+	margin-top: 100px;
+	width: 100%;
+	border-top: 1px solid orange;
+	height: auto;
+}
+.left{
+	width: 58%;
+	float: left;
+	border-right: 1px solid orange;
+	padding-left: 2%;
+}
+.right{
+	padding-left: 2%;
+	width: 36%;
+	float: left;
+}
+.ft{
+	border-top: 1px solid orange;
+}
+#footer{
+	float: right;
+	padding-right: 2%;
+}
+.clear{
+	clear: both;
+}
+.green{
+	color: green;
+}
+.orange{
+	color: orange;
+}
+.tvm{
+	text-decoration: underline;
+}
+.bold{
+	font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+	.left, .right{
+		width: 98%;
+	}
+	.left{
+		border-right: 0px solid yellow;
+		border-bottom: 1px solid orange;
+	}
+	#header{
+		height: 60px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.left, .right{
+		width: 98%;
+	}
+	.left{
+		border-right: 0px solid yellow;
+		border-bottom: 1px solid orange;
+	}
+	#header{
+		height: 80px;
+	}
+}

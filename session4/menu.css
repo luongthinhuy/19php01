@@ -1,0 +1,26 @@
+body{
+	background: orange;
+}
+#nav ul{
+	list-style-type: none;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+#nav ul li{
+	margin-bottom: 5px;
+	float: left;
+}
+#nav ul li a{
+	width: 175px;
+	border: 2px solid #fff;
+	text-align: center;
+	color: black;
+	display: block;
+	font-weight: bold;
+	padding: 2px;
+	text-decoration: none;
+	background-color: white;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+}
