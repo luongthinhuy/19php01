@@ -4,7 +4,7 @@
 }
 @font-face{
 	font-family: myFont;
-	src: url(AristonNormal.ttf);
+	src: url(img/AristonNormal.ttf);
 }
 body{
 	background-image: url(header.png);

@@ -1,0 +1,17 @@
+h1{
+	color: orange;
+	text-align: center;
+}
+table{
+	border: 1px solid green;
+	width: 400px;
+	border-collapse: collapse;
+	text-align: center;
+	margin: 0 auto;
+}
+td, th{
+	border: 1px solid green;	
+}
+thead, tfoot{
+	background-color: #ada;
+}
