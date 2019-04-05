@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hello JavaScript</title>
+	<link rel="stylesheet" type="text/css" href="css/hellojs.css">
+</head>
+<body>
+	<div onclick="alert('abc')">Test</div>
+	<p id="demo"></p>
+	<!-- Thay đổi nội dung HTML -->
+	<div id="demo1"> Hello JavaScript</div>
+	<a href="#" onclick="document.getElementById('demo1').innerHTML = 'Hello 19php01' ">Change content</a>
+	<!-- Thay đổi style HTML -->
+	<div id="demo2">Lương Thị Như Ý</div>
+	<a href="#" onclick="document.getElementById('demo2').style.color='orange'">Change color</a>
+	<a href="#" onclick="document.getElementById('demo2').style.fontSize='25px'"> Change fontSize</a><br>
+	<!-- Thay doi mot thuoc tính cua doi tượng html-->
+	<img src="img/y.jpg" alt="" id="img">
+	<a href="#" onclick="document.getElementById('img') .src = 'img/bia.jpg'">Change img</a>
+	<!-- Ẩn/hiện một đối tượng html-->
+	<a href="#" onclick="document.getElementById('img').style.display = 'none' "> Hide img</a>
+	<a href="#" onclick="document.getElementById('img').style.display = 'block' "> show img</a>
+	<div id="demo3"> hello 19php01 nheiii !!!</div>
+	<a href="#" onclick="document.getElementById('demo3').style.display = 'none' "> Hide</a>
+	<a href="#" onclick="document.getElementById('demo3').style.display = 'block' "> Show</a><br>
+	<script type="text/javascript" src="js/hellojs.js"></script>
+</body>
+</html>
